@@ -3,6 +3,7 @@ tiny_nn: \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
   CMakeFiles/tiny_nn.dir/src/main.cpp.o \
+  CMakeFiles/tiny_nn.dir/src/matrix.cpp.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libm.so \
@@ -38,6 +39,8 @@ tiny_nn: \
 /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o:
 
 CMakeFiles/tiny_nn.dir/src/main.cpp.o:
+
+CMakeFiles/tiny_nn.dir/src/matrix.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/seilox/projects/tiny-nn/src/main.cpp" "CMakeFiles/tiny_nn.dir/src/main.cpp.o" "gcc" "CMakeFiles/tiny_nn.dir/src/main.cpp.o.d"
+  "/home/seilox/projects/tiny-nn/src/matrix.cpp" "CMakeFiles/tiny_nn.dir/src/matrix.cpp.o" "gcc" "CMakeFiles/tiny_nn.dir/src/matrix.cpp.o.d"
   "" "tiny_nn" "gcc" "CMakeFiles/tiny_nn.dir/link.d"
   )
 
