@@ -5,5 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(tiny_nn
-    src/main.cpp
+  src/main.cpp
+  src/matrix.cpp
+  src/layer.cpp
 )

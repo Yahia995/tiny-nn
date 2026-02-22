@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tiny_nn.dir/link.d"
+  "CMakeFiles/tiny_nn.dir/src/layer.cpp.o"
+  "CMakeFiles/tiny_nn.dir/src/layer.cpp.o.d"
   "CMakeFiles/tiny_nn.dir/src/main.cpp.o"
   "CMakeFiles/tiny_nn.dir/src/main.cpp.o.d"
   "CMakeFiles/tiny_nn.dir/src/matrix.cpp.o"

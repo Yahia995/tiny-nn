@@ -129,6 +129,30 @@ tiny_nn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny_nn.dir/build.make CMakeFiles/tiny_nn.dir/build
 .PHONY : tiny_nn/fast
 
+src/layer.o: src/layer.cpp.o
+.PHONY : src/layer.o
+
+# target to build an object file
+src/layer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny_nn.dir/build.make CMakeFiles/tiny_nn.dir/src/layer.cpp.o
+.PHONY : src/layer.cpp.o
+
+src/layer.i: src/layer.cpp.i
+.PHONY : src/layer.i
+
+# target to preprocess a source file
+src/layer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny_nn.dir/build.make CMakeFiles/tiny_nn.dir/src/layer.cpp.i
+.PHONY : src/layer.cpp.i
+
+src/layer.s: src/layer.cpp.s
+.PHONY : src/layer.s
+
+# target to generate assembly for a file
+src/layer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny_nn.dir/build.make CMakeFiles/tiny_nn.dir/src/layer.cpp.s
+.PHONY : src/layer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tiny_nn"
+	@echo "... src/layer.o"
+	@echo "... src/layer.i"
+	@echo "... src/layer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
