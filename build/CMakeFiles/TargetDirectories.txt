@@ -1,3 +1,0 @@
-/home/seilox/projects/tiny-nn/build/CMakeFiles/tiny_nn.dir
-/home/seilox/projects/tiny-nn/build/CMakeFiles/edit_cache.dir
-/home/seilox/projects/tiny-nn/build/CMakeFiles/rebuild_cache.dir
