@@ -26,15 +26,15 @@ namespace Activation {
 
   // --- Matrix versions (element-wise) ---
 
-  inline Matrix apply(const Matrix& m, double (*func)(double)) {
+  template<typename Func>
+  inline Matrix apply(const Matrix& m, Func func) {
     Matrix result(m.rows, m.cols);
 
     for (size_t i = 0; i < m.rows; ++i) {
-      for (size_t j = 0; j < m.cols; ++j)
-        result(i, j) = func(m(i, j));
+        for (size_t j = 0; j < m.cols; ++j)
+            result(i, j) = func(m(i, j));
     }
 
     return result;
   }
-
 }
