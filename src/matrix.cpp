@@ -1,6 +1,8 @@
 #include <stdexcept>
 #include "matrix.hpp"
 
+Matrix::Matrix() : rows(0), cols(0), data() {}
+
 Matrix::Matrix(size_t r, size_t c)
   : rows(r), cols(c), data(r * c, 0.0) {}
 

@@ -9,6 +9,7 @@ class Matrix {
     size_t rows;
     size_t cols;
 
+    Matrix();
     Matrix(size_t r, size_t c);
 
     double& operator()(size_t r, size_t c);
