@@ -137,12 +137,12 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc \
- /home/seilox/projects/tiny-nn/src/matrix.hpp /usr/include/c++/15/vector \
+ /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/vector \
  /usr/include/c++/15/bits/stl_uninitialized.h \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc \
+ /home/seilox/projects/tiny-nn/src/matrix.hpp \
  /home/seilox/projects/tiny-nn/src/activations.hpp \
  /usr/include/c++/15/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -172,4 +172,5 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: \
  /usr/include/c++/15/ext/aligned_buffer.h \
  /usr/include/c++/15/bits/enable_special_members.h \
  /usr/include/c++/15/bits/node_handle.h \
- /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/array
+ /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/array \
+ /home/seilox/projects/tiny-nn/src/loss.hpp

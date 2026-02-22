@@ -270,7 +270,8 @@ CMakeFiles/tiny_nn.dir/src/layer.cpp.o: /home/seilox/projects/tiny-nn/src/layer.
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h
 
 CMakeFiles/tiny_nn.dir/src/main.cpp.o: /home/seilox/projects/tiny-nn/src/main.cpp \
-  /home/seilox/projects/tiny-nn/src/loss.hpp \
+  /home/seilox/projects/tiny-nn/src/activations.hpp \
+  /home/seilox/projects/tiny-nn/src/layer.hpp \
   /home/seilox/projects/tiny-nn/src/matrix.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -353,6 +354,7 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: /home/seilox/projects/tiny-nn/src/main.cp
   /usr/include/bits/wchar.h \
   /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/c++/15/array \
   /usr/include/c++/15/backward/binders.h \
   /usr/include/c++/15/bit \
   /usr/include/c++/15/bits/alloc_traits.h \
@@ -367,12 +369,16 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: /home/seilox/projects/tiny-nn/src/main.cp
   /usr/include/c++/15/bits/cpp_type_traits.h \
   /usr/include/c++/15/bits/cxxabi_forced.h \
   /usr/include/c++/15/bits/cxxabi_init_exception.h \
+  /usr/include/c++/15/bits/enable_special_members.h \
+  /usr/include/c++/15/bits/erase_if.h \
   /usr/include/c++/15/bits/exception.h \
   /usr/include/c++/15/bits/exception_defines.h \
   /usr/include/c++/15/bits/exception_ptr.h \
   /usr/include/c++/15/bits/functexcept.h \
   /usr/include/c++/15/bits/functional_hash.h \
   /usr/include/c++/15/bits/hash_bytes.h \
+  /usr/include/c++/15/bits/hashtable.h \
+  /usr/include/c++/15/bits/hashtable_policy.h \
   /usr/include/c++/15/bits/invoke.h \
   /usr/include/c++/15/bits/ios_base.h \
   /usr/include/c++/15/bits/istream.tcc \
@@ -388,6 +394,7 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: /home/seilox/projects/tiny-nn/src/main.cp
   /usr/include/c++/15/bits/move.h \
   /usr/include/c++/15/bits/nested_exception.h \
   /usr/include/c++/15/bits/new_allocator.h \
+  /usr/include/c++/15/bits/node_handle.h \
   /usr/include/c++/15/bits/ostream.h \
   /usr/include/c++/15/bits/ostream.tcc \
   /usr/include/c++/15/bits/ostream_insert.h \
@@ -402,6 +409,7 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: /home/seilox/projects/tiny-nn/src/main.cp
   /usr/include/c++/15/bits/requires_hosted.h \
   /usr/include/c++/15/bits/specfun.h \
   /usr/include/c++/15/bits/std_abs.h \
+  /usr/include/c++/15/bits/std_function.h \
   /usr/include/c++/15/bits/stl_algobase.h \
   /usr/include/c++/15/bits/stl_bvector.h \
   /usr/include/c++/15/bits/stl_construct.h \
@@ -416,6 +424,7 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: /home/seilox/projects/tiny-nn/src/main.cp
   /usr/include/c++/15/bits/streambuf_iterator.h \
   /usr/include/c++/15/bits/string_view.tcc \
   /usr/include/c++/15/bits/stringfwd.h \
+  /usr/include/c++/15/bits/unordered_map.h \
   /usr/include/c++/15/bits/uses_allocator.h \
   /usr/include/c++/15/bits/uses_allocator_args.h \
   /usr/include/c++/15/bits/utility.h \
@@ -435,11 +444,13 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: /home/seilox/projects/tiny-nn/src/main.cp
   /usr/include/c++/15/debug/assertions.h \
   /usr/include/c++/15/debug/debug.h \
   /usr/include/c++/15/exception \
+  /usr/include/c++/15/ext/aligned_buffer.h \
   /usr/include/c++/15/ext/alloc_traits.h \
   /usr/include/c++/15/ext/atomicity.h \
   /usr/include/c++/15/ext/numeric_traits.h \
   /usr/include/c++/15/ext/string_conversions.h \
   /usr/include/c++/15/ext/type_traits.h \
+  /usr/include/c++/15/functional \
   /usr/include/c++/15/initializer_list \
   /usr/include/c++/15/ios \
   /usr/include/c++/15/iosfwd \
@@ -470,6 +481,7 @@ CMakeFiles/tiny_nn.dir/src/main.cpp.o: /home/seilox/projects/tiny-nn/src/main.cp
   /usr/include/c++/15/tuple \
   /usr/include/c++/15/type_traits \
   /usr/include/c++/15/typeinfo \
+  /usr/include/c++/15/unordered_map \
   /usr/include/c++/15/vector \
   /usr/include/c++/15/x86_64-redhat-linux/bits/atomic_word.h \
   /usr/include/c++/15/x86_64-redhat-linux/bits/c++allocator.h \
@@ -770,8 +782,6 @@ CMakeFiles/tiny_nn.dir/src/layer.cpp.o:
 /lib64/ld-linux-x86-64.so.2:
 
 /home/seilox/projects/tiny-nn/src/matrix.cpp:
-
-/home/seilox/projects/tiny-nn/src/loss.hpp:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h:
 
