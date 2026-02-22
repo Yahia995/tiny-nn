@@ -754,11 +754,14 @@ tiny_nn: /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/gcc/x86_64-redhat-linux/15/libgcc_s.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
   /usr/lib64/libc_nonshared.a \
+  CMakeFiles/tiny_nn.dir/src/layer.cpp.o \
   CMakeFiles/tiny_nn.dir/src/main.cpp.o \
   CMakeFiles/tiny_nn.dir/src/matrix.cpp.o
 
 
 CMakeFiles/tiny_nn.dir/src/main.cpp.o:
+
+CMakeFiles/tiny_nn.dir/src/layer.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 
